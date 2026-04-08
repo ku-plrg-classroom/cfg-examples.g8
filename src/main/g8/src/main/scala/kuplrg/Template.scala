@@ -1,0 +1,3 @@
+package kuplrg
+
+trait Template {}
