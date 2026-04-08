@@ -29,7 +29,7 @@ case class Rhs(seq: List[Nt | Symbol])
   * @param rules
   *   the production rules
   */
-case class CFG private (
+final case class CFG(
   nts: Set[Nt],
   symbols: Set[Symbol],
   start: Nt,
